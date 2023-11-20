@@ -12,4 +12,12 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  isMenuOpen = false;
+  icon: string = "bi bi-list";
+
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
+    this.icon = this.isMenuOpen ? "bi bi-x-lg" : "bi bi-list";
+  }
+
 }
