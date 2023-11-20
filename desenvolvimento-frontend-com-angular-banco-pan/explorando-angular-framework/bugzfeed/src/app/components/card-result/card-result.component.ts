@@ -17,5 +17,5 @@ export class CardResultComponent implements OnInit {
   imgSrc: string = "";
   description: string = "";
 
-  result: boolean = true;
+  result: boolean = false;
 }

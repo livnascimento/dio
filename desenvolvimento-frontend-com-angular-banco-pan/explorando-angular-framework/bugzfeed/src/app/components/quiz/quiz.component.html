@@ -2,7 +2,9 @@
   <div class="row">
     <div class="col-12 col-lg-8">
       <app-card-info></app-card-info>
-      <app-card-question></app-card-question>
+      <div *ngFor="let question of quizData.questions">
+        <app-card-question [question]="question"></app-card-question>
+      </div>
       <app-card-result></app-card-result>
     </div>
     <div class="col-12 col-md-4 d-sm-none d-lg-block">

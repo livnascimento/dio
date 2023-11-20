@@ -1,45 +1,20 @@
 <div class="card border-0 shadow-lg text-center text-white fw-bold mb-3 user-select-none">
   <div class="card-body">
     <div class="bg-danger p-5 mb-3">
-      <h1>Escolha um:</h1>
+      <h1>{{question.question}}</h1>
     </div>
     <div class="row g-2">
-      <div class="col-12 col-md-6 mb-3">
-        <a href="" class="text-decoration-none">
-          <div class="card text-white border-0 rounded-0 cursor-pointe bg-danger h-100">
-            <div class="card-body">
-              <p class="py-2">opção</p>
+
+        <div *ngFor="let option of question.options" class="col-12 col-md-6 mb-3">
+          <a href="" class="text-decoration-none">
+            <div class="card text-white border-0 rounded-0 cursor-pointe bg-danger h-100">
+              <div class="card-body">
+                <p class="py-2">{{option.name}}</p>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 mb-3">
-        <a href="" class="text-decoration-none">
-          <div class="card text-white border-0 rounded-0 cursor-pointe bg-danger h-100">
-            <div class="card-body">
-              <p class="py-2">opção</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 mb-3">
-        <a href="" class="text-decoration-none">
-          <div class="card text-white border-0 rounded-0 cursor-pointe bg-danger h-100">
-            <div class="card-body">
-              <p class="py-2">opção</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 mb-3">
-        <a href="" class="text-decoration-none">
-          <div class="card text-white border-0 rounded-0 cursor-pointe bg-danger h-100">
-            <div class="card-body">
-              <p class="py-2">opção</p>
-            </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+
     </div>
   </div>
 </div>

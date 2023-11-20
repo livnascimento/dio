@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { CardQuestionComponent } from './components/card-question/card-question.
 import { CardInfoComponent } from './components/card-info/card-info.component';
 import { CardAdComponent } from './components/card-ad/card-ad.component';
 import { CardResultComponent } from './components/card-result/card-result.component';
+import {QuizService} from './components/quiz/quiz.service'
 
 @NgModule({
   declarations: [
@@ -26,9 +28,10 @@ import { CardResultComponent } from './components/card-result/card-result.compon
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [QuizService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
