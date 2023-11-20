@@ -1,0 +1,11 @@
+.overflow-x-scroll {
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  -ms-overflow-style: none;
+  /* scrollbar-width: none; */
+  scroll-behavior: smooth;
+}
+
+.overflow-x-scroll::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}

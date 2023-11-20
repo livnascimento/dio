@@ -1,0 +1,157 @@
+{
+  "title": "Que tipo de dev você é?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Se tivesse que sacrificar algum dos itens abaixo em um projeto, qual seria?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Alta capacidade de processamento",
+          "alias": "B"
+        },
+        {
+          "id": 2,
+          "name": "UI/UX",
+          "alias": "D"
+        },
+        {
+          "id": 3,
+          "name": "Front-end",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Documentação",
+          "alias": "A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Se tivesse que escolher apenas uma das caracterísitcas abaixo para um projeto, qual seria?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Acho que tanto faz",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Dark mode",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Interface amigável",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Alta disponibilidade",
+          "alias": "D"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "O que você mais gostaria de ter no seu ambiente de trabalho?",
+      "options": [
+        {
+          "id": 1,
+          "name": "PS5 ou mesa de bilhar/sinuca",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Espaço ao ar livre para descanso",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Livros técnicos",
+          "alias": "D"
+        },
+        {
+          "id": 4,
+          "name": "Não ter um ambiente de trabalho, prefiro Home Office",
+          "alias": "C"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "O que você faz no seu tempo livre?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Qualquer coisa que não seja trabalho",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Vai à praia ou faz uma boa trilha",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Faz um código maneirinho para se divertir",
+          "alias": "D"
+        },
+        {
+          "id": 4,
+          "name": "Joga, joga e joga",
+          "alias": "C"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "O que você excluiria da sua vida profissional se fosse possível?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Burocracias",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Interação social",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Linguagens fracamente tipadas!!!!",
+          "alias": "D"
+        },
+        {
+          "id": 4,
+          "name": "Pessoas do tipo 'não bebe café e não vira a noite não é dev'",
+          "alias": "B"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "A": {
+      "title": "Dev bombeiro",
+      "subtitle": "Na minha máquina funciona! 🤬",
+      "description": "Um gênio incompreendido. Você cria o incêndio, mas tá tudo certo porque você vai lá e apaga. Não sabe como resolveu o problema e não quer saber; o importante é funcionar."
+    },
+    "B": {
+      "title": "Dev Tainá - Uma Aventura na Amazônia",
+      "subtitle": "Quem mexeu na prantinha da minha mesa? 🌱",
+      "description": "Você ama a natureza, super good vibes e passa longe do café porque faz mal pra ansiedade. Acredita que o front-end tem que estar bonito e o back-end tem que consumir o mínimo possível de recursos."
+    },
+    "C": {
+      "title": "Dev morcegão",
+      "subtitle": "Prefiro que você me dê um tapa com muita força ao usar light mode perto de mim. 🦇",
+      "description": "Assim como o Batman, sua vibe é trabalhar sozinho no silêncio das madrugadas. Entrou na programação porque ouviu dizer que não tem que interagir muito e quer continuar acreditando que é assim."
+    },
+    "D": {
+      "title": "Dev raiz",
+      "subtitle": "E daí se o prédio tá pegando fogo??? O café acabou! ☕",
+      "description": "Tem pesadelos sobre trabalhar em uma empresa que não tem café, conhece várias linguagens e ri quando alguém reclama do Javascript, pois Java e C# são muito piores."
+    }
+  }
+}
