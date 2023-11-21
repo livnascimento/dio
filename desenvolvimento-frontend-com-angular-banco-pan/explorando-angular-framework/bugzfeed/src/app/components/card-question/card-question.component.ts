@@ -16,4 +16,12 @@ export class CardQuestionComponent implements OnInit {
 
   @Input() question: any;
 
+  answers: Array<string> = ["0", "0", "0", "0"];
+
+  addChoice = (alias: string, questionId: number): void => {
+    console.log(questionId);
+    this.answers.splice(questionId - 1, 1, alias);
+    console.log(this.answers);
+  }
+
 }
