@@ -136,22 +136,26 @@
     "A": {
       "title": "Dev bombeiro",
       "subtitle": "Na minha máquina funciona! 🤬",
-      "description": "Um gênio incompreendido. Você cria o incêndio, mas tá tudo certo porque você vai lá e apaga. Não sabe como resolveu o problema e não quer saber; o importante é funcionar."
+      "description": "Um gênio incompreendido. Você cria o incêndio, mas tá tudo certo porque você vai lá e apaga. Não sabe como resolveu o problema e não quer saber; o importante é funcionar.",
+      "imgSrc": "https://i.pinimg.com/564x/9e/c5/0d/9ec50ddefd3f405aa03cb4ee15f19556.jpg"
     },
     "B": {
-      "title": "Dev Tainá - Uma Aventura na Amazônia",
+      "title": "Dev Flora das Winx",
       "subtitle": "Quem mexeu na prantinha da minha mesa? 🌱",
-      "description": "Você ama a natureza, super good vibes e passa longe do café porque faz mal pra ansiedade. Acredita que o front-end tem que estar bonito e o back-end tem que consumir o mínimo possível de recursos."
+      "description": "Você ama a natureza, super good vibes e passa longe do café porque faz mal pra ansiedade. Acredita que o front-end tem que estar bonito e o back-end tem que consumir o mínimo possível de recursos.",
+      "imgSrc": "https://i.pinimg.com/564x/99/79/d8/9979d8cf11c9cdb7261e0452261d99b1.jpg"
     },
     "C": {
       "title": "Dev morcegão",
       "subtitle": "Prefiro que você me dê um tapa com muita força ao usar light mode perto de mim. 🦇",
-      "description": "Assim como o Batman, sua vibe é trabalhar sozinho no silêncio das madrugadas. Entrou na programação porque ouviu dizer que não tem que interagir muito e quer continuar acreditando que é assim."
+      "description": "Assim como o Batman, sua vibe é trabalhar sozinho no silêncio das madrugadas. Entrou na programação porque ouviu dizer que não tem que interagir muito e quer continuar acreditando que é assim.",
+      "imgSrc": "https://i.pinimg.com/564x/ca/10/6f/ca106f62613ff38702853e68c7e06cda.jpg"
     },
     "D": {
       "title": "Dev raiz",
       "subtitle": "E daí se o prédio tá pegando fogo??? O café acabou! ☕",
-      "description": "Tem pesadelos sobre trabalhar em uma empresa que não tem café, conhece várias linguagens e ri quando alguém reclama do Javascript, pois Java e C# são muito piores."
+      "description": "Tem pesadelos sobre trabalhar em uma empresa que não tem café, conhece várias linguagens e ri quando alguém reclama do Javascript, pois Java e C# são muito piores.",
+      "imgSrc": "https://miro.medium.com/v2/resize:fit:717/1*GyJfX9IIMfoaxVfmSRCvAA.jpeg"
     }
   }
 }
