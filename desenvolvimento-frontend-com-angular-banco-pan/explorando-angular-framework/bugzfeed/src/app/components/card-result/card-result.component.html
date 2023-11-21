@@ -1,19 +1,14 @@
-<div class="card shadow border-0" style="background-color: #016B79;"  [ngStyle]="{'display': result ? 'block' : 'none'}">
+<div class="card shadow border-0" style="background-color: #016B79;"  *ngIf="sharedStateService.cardResult" id="result">
   <div class="card-body justify-content-center">
     <div class="my-2 fw-bolder text-white text-center" style="font-size: 3rem;">
       <span>Resultado</span>
     </div>
     <div class="card border-0">
       <div class="card-body justify-content-center">
-          <h2 class="fw-bold">Você tirou: {{title}}</h2>
-          <p class="fw-bold opacity-50">"{{subtitle}}"</p>
-          <img class="img-fluid" src="{{imgSrc}}" alt="">
-          <p class="card-text mt-3">{{description}}</p>
-      </div>
-    </div>
-    <div class="card border-0 py-3 mt-3">
-      <div class="btn bg-white w-100 border-0 fw-bold align-items-center" style="color: #E41978;">
-        <span>Refazer Quiz</span>
+          <h2 class="fw-bold">Você tirou: {{result.title}}</h2>
+          <p class="fw-bold opacity-50">"{{result.subtitle}}"</p>
+          <img class="img-fluid object-fit-cover w-100 h-50" src="{{result.imgSrc}}" alt="">
+          <p class="card-text mt-3">{{result.description}}</p>
       </div>
     </div>
   </div>

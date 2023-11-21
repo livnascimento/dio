@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { SharedStateService } from '../quiz/quiz.service';
 
 @Component({
   selector: 'app-card-result',
@@ -7,15 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardResultComponent implements OnInit {
 
-  constructor() { }
+  constructor(protected sharedStateService: SharedStateService) { }
 
   ngOnInit(): void {
   }
 
-  title: string = "";
-  subtitle: string = "";
-  imgSrc: string = "";
-  description: string = "";
+  @Input() result: any;
 
-  result: boolean = false;
 }
