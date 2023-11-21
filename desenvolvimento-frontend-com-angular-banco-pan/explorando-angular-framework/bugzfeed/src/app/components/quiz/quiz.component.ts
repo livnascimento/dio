@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { QuizService } from './quiz.service';
+import { QuizService, SharedStateService } from './quiz.service';
 
 type QuizType = {
   title: string;
@@ -31,7 +31,7 @@ export class QuizComponent implements OnInit {
 
   @Input() quizData: QuizType = { title: '', questions: [], results: {} };
 
-  constructor(private quizService: QuizService) { }
+  constructor(private quizService: QuizService, protected sharedStateService: SharedStateService) { }
 
   ngOnInit(): void {
     this.loadQuizData();

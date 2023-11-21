@@ -14,3 +14,9 @@ export class QuizService {
     return this.http.get<any>(this.quizDataUrl);
   }
 }
+
+export class SharedStateService {
+  answers: Array<string> = ["0", "0", "0", "0", "0"];
+  cardResult: boolean = false;
+  resultAlias: string = "";
+}

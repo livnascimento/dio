@@ -5,7 +5,8 @@
       <div *ngFor="let question of quizData.questions">
         <app-card-question [question]="question"></app-card-question>
       </div>
-      <app-card-result></app-card-result>
+      <app-card-result [result]="quizData.results[sharedStateService.resultAlias]"></app-card-result>
+      <app-see-more-section></app-see-more-section>
     </div>
     <div class="col-12 col-md-4 d-sm-none d-lg-block">
       <app-card-ad></app-card-ad>
