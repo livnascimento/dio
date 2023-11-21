@@ -12,7 +12,9 @@ import { CardQuestionComponent } from './components/card-question/card-question.
 import { CardInfoComponent } from './components/card-info/card-info.component';
 import { CardAdComponent } from './components/card-ad/card-ad.component';
 import { CardResultComponent } from './components/card-result/card-result.component';
-import {QuizService} from './components/quiz/quiz.service'
+import { QuizService, SharedStateService } from './components/quiz/quiz.service';
+import { SeeMoreSectionComponent } from './components/see-more-section/see-more-section.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import {QuizService} from './components/quiz/quiz.service'
     CardQuestionComponent,
     CardInfoComponent,
     CardAdComponent,
-    CardResultComponent
+    CardResultComponent,
+    SeeMoreSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,7 @@ import {QuizService} from './components/quiz/quiz.service'
     NgbModule,
     HttpClientModule
   ],
-  providers: [QuizService],
+  providers: [QuizService, SharedStateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
