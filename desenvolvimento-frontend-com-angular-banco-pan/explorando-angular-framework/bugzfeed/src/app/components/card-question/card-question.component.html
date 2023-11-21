@@ -1,15 +1,17 @@
-<div class="card border-0 shadow-lg text-center text-white fw-bold mb-3 user-select-none">
+<div class="card border-0 shadow-lg text-center text-white fw-bold mb-3 user-select-none" id="question{{question.id}}">
   <div class="card-body">
     <div class="bg-danger p-5 mb-3">
       <h1 class="fw-bold">{{question.question}}</h1>
     </div>
     <div class="row g-2">
-      <div *ngFor="let option of question.options" class="col-12 col-md-6">
-        <button (click)="addChoice(option.alias, question.id)" class="w-100 btn btn-danger">
-          <div class="card-body">
-            <p class="py-2">{{option.name}}</p>
-          </div>
-        </button>
+        <div *ngFor="let option of question.options" class="col-12 col-md-6">
+          <button (click)="addChoice(option.alias, question.id)" class="w-100 btn btn-danger border-0 rounded-0">
+            <a [href]="question.id + 1 == 6 ? '#result' : '#question' + (question.id + 1)" class="text-decoration-none text-white">
+              <div class="card-body">
+                <span class="fs-5">{{option.name}}</span>
+              </div>
+            </a>
+          </button>
       </div>
     </div>
   </div>
