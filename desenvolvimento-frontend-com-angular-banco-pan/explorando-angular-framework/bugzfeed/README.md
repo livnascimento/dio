@@ -30,5 +30,4 @@ Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](.
 - [Bootstrap Documentation](https://getbootstrap.com/)
 - [Bootcamp Desenvolvimento Front-end com angular](https://web.dio.me/track/coding-future-banco-pan-desenvolvimento-frontend-com-angular?tab=path)
 <br>
-<br>
-Espero que você tenha se divertido com o BugzFeed! Espero que você aproveite a leitura dos artigos. 💜
+Espero que você tenha se divertido com o BugzFeed! 💜
