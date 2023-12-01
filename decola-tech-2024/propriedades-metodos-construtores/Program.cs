@@ -12,4 +12,3 @@ Curso cursoFrontEnd = new()
 cursoFrontEnd.AdicionarAluno(pessoa1);
 cursoFrontEnd.AdicionarAluno(pessoa2);
 cursoFrontEnd.ListarAlunos();
-cursoFrontEnd.ObterQuantidadeAlunosMatriculados();

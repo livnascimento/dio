@@ -25,9 +25,8 @@ namespace propriedades_metodos_construtores.Models
         }
         public void ListarAlunos() 
         {
-            foreach (Pessoa aluno in Alunos)
-            {
-                Console.WriteLine(aluno.NomeCompleto);
+            for (int i = 0; i < Alunos.Count ; i++) {
+                Console.WriteLine($"{i + 1} - {Alunos[i].NomeCompleto}");
             } 
         }
     }
