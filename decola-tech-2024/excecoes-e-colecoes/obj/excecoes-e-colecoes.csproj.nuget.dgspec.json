@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\dio\\decola-tech-2024\\excecoes-e-colecoes\\excecoes-e-colecoes.csproj": {}
+    "/home/livia/Workspace/dio/decola-tech-2024/excecoes-e-colecoes/excecoes-e-colecoes.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\dio\\decola-tech-2024\\excecoes-e-colecoes\\excecoes-e-colecoes.csproj": {
+    "/home/livia/Workspace/dio/decola-tech-2024/excecoes-e-colecoes/excecoes-e-colecoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\dio\\decola-tech-2024\\excecoes-e-colecoes\\excecoes-e-colecoes.csproj",
+        "projectUniqueName": "/home/livia/Workspace/dio/decola-tech-2024/excecoes-e-colecoes/excecoes-e-colecoes.csproj",
         "projectName": "excecoes-e-colecoes",
-        "projectPath": "C:\\Workspace\\dio\\decola-tech-2024\\excecoes-e-colecoes\\excecoes-e-colecoes.csproj",
-        "packagesPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "outputPath": "C:\\Workspace\\dio\\decola-tech-2024\\excecoes-e-colecoes\\obj\\",
+        "projectPath": "/home/livia/Workspace/dio/decola-tech-2024/excecoes-e-colecoes/excecoes-e-colecoes.csproj",
+        "packagesPath": "/home/livia/.nuget/packages/",
+        "outputPath": "/home/livia/Workspace/dio/decola-tech-2024/excecoes-e-colecoes/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\livia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/livia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/livia/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

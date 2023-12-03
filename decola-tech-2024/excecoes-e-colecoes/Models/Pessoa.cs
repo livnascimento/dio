@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace execoes_e_colecoes.Models
+namespace excecoes_e_colecoes.Models
 {
     public class Pessoa
     {
