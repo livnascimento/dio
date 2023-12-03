@@ -96,3 +96,4 @@ Tools/
 # Arquivos do Visual Studio Code
 .vscode/
 *.code-workspace
+.sln
