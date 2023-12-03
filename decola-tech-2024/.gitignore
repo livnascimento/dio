@@ -1,0 +1,98 @@
+# Arquivos temporários gerados pelo Visual Studio
+.vs/
+
+# Arquivos de compilação e saída de compilação
+bin/
+obj/
+
+# Arquivos de dependências e pacotes
+packages/
+
+# Arquivos de usuário e configurações de projeto
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# Logs e arquivos de diagnóstico
+*.log
+
+# Arquivos de análise de código ou estatísticas
+*.opendb
+*.log
+*.iobj
+
+# Arquivos de configuração específicos do ambiente
+*.dll.config
+*.exe.config
+
+# Arquivos de ferramentas
+_tool/
+Tools/
+
+# Arquivos temporários gerados pelo Visual Studio
+.vs/
+
+# Arquivos de compilação e saída de compilação
+bin/
+obj/
+
+# Arquivos de dependências e pacotes
+packages/
+
+# Arquivos de usuário e configurações de projeto
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# Logs e arquivos de diagnóstico
+*.log
+
+# Arquivos de análise de código ou estatísticas
+*.opendb
+*.log
+*.iobj
+
+# Arquivos de configuração específicos do ambiente
+*.dll.config
+*.exe.config
+
+# Arquivos de ferramentas
+_tool/
+Tools/
+# Arquivos temporários gerados pelo Visual Studio
+.vs/
+
+# Arquivos de compilação e saída de compilação
+bin/
+obj/
+
+# Arquivos de dependências e pacotes
+packages/
+
+# Arquivos de usuário e configurações de projeto
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# Logs e arquivos de diagnóstico
+*.log
+
+# Arquivos de análise de código ou estatísticas
+*.opendb
+*.log
+*.iobj
+
+# Arquivos de configuração específicos do ambiente
+*.dll.config
+*.exe.config
+
+# Arquivos de ferramentas
+_tool/
+Tools/
+
+# Arquivos do Visual Studio Code
+.vscode/
+*.code-workspace
