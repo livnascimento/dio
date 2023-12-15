@@ -1,6 +1,6 @@
-@EntityFramework_HostAddress = http://localhost:5090
+@EntityFramework_HostAddress = http://localhost:5062
 
-GET {{EntityFramework_HostAddress}}/weatherforecast/
+GET {{EntityFramework_HostAddress}}/agenda/
 Accept: application/json
 
 ###
