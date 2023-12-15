@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityFramework.Migrations
 {
     [DbContext(typeof(AgendaContext))]
-    [Migration("20231212202646_CriacaoTabelaContatos")]
+    [Migration("20231215180037_CriacaoTabelaContatos")]
     partial class CriacaoTabelaContatos
     {
         /// <inheritdoc />
@@ -32,15 +32,13 @@ namespace EntityFramework.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("EstaAtivo")
+                    b.Property<bool>("Ativo")
                         .HasColumnType("bit");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Telefone")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
