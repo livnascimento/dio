@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using mvc.Models;
 
 
-namespace mvc.Controllers
+namespace mvc.Context
 {
     public class AgendaContext : DbContext
     {

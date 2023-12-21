@@ -1,0 +1,32 @@
+@model IEnumerable<mvc.Models.Contato>
+
+@{
+    ViewData["Title"] = "Contato";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor( model => model.Nome )
+            </th>
+            <th>
+                @Html.DisplayNameFor( model => model.Telefone )
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null) {
+            @foreach (var contato in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor( model => contato.Nome )
+                    </td>
+                    <td>
+                        @Html.DisplayFor( model => contato.Telefone )
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
