@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityFramework.Migrations
 {
     [DbContext(typeof(AgendaContext))]
-    [Migration("20231215180037_CriacaoTabelaContatos")]
-    partial class CriacaoTabelaContatos
+    [Migration("20231221123939_CriacaoTabelaContato")]
+    partial class CriacaoTabelaContato
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -5,7 +5,7 @@
 namespace EntityFramework.Migrations
 {
     /// <inheritdoc />
-    public partial class CriacaoTabelaContatos : Migration
+    public partial class CriacaoTabelaContato : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
