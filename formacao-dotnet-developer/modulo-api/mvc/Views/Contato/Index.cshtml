@@ -1,29 +1,52 @@
 @model IEnumerable<mvc.Models.Contato>
 
 @{
-    ViewData["Title"] = "Contato";
+    ViewData["Title"] = "Contatos";
 }
+
+<div class="row">
+    <h2 class="col-10">Contatos</h2>
+    <div class="col-2">
+        <a asp-action="Criar">
+            <button class="btn btn-primary rouded-50">Criar novo contato</button>
+        </a>
+    </div>
+</div>
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor( model => model.Nome )
+                @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor( model => model.Telefone )
+                @Html.DisplayNameFor(model => model.Telefone)
             </th>
+            <th></th>
+            <th></th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
-        @if (Model != null) {
-            @foreach (var contato in Model) {
+        @if (Model != null)
+        {
+            @foreach (var contato in Model)
+            {
                 <tr>
                     <td>
-                        @Html.DisplayFor( model => contato.Nome )
+                        @Html.DisplayFor(model => contato.Nome)
                     </td>
                     <td>
-                        @Html.DisplayFor( model => contato.Telefone )
+                        @Html.DisplayFor(model => contato.Telefone)
+                    </td>
+                    <td>
+                        <a asp-action="Editar" class="text-decoration-none">Editar</a>
+                    </td>
+                    <td>
+                        <a asp-action="Detalhar" class="text-decoration-none">Detalhar</a>
+                    </td>
+                    <td>
+                        <a asp-action="Excluir" class="text-decoration-none">Excluir</a>
                     </td>
                 </tr>
             }
