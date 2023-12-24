@@ -40,13 +40,13 @@
                         @Html.DisplayFor(model => contato.Telefone)
                     </td>
                     <td>
-                        <a asp-action="Editar" class="text-decoration-none">Editar</a>
+                        <a asp-action="Editar" asp-route-id="@contato.Id" class="text-decoration-none"><i class="bi bi-pencil-square"></i></a>
                     </td>
                     <td>
-                        <a asp-action="Detalhar" class="text-decoration-none">Detalhar</a>
+                        <a asp-action="Detalhar" asp-route-id="@contato.Id" class="text-decoration-none"><i class="bi bi-plus-circle-fill"></i></a>
                     </td>
                     <td>
-                        <a asp-action="Excluir" class="text-decoration-none">Excluir</a>
+                        <a asp-action="Excluir" asp-route-id="@contato.Id" class="text-decoration-none">Excluir</a>
                     </td>
                 </tr>
             }

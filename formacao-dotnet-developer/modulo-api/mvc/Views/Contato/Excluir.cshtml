@@ -1,0 +1,30 @@
+@model IEnumerable<mvc.Models.Contato>
+
+@{
+    ViewData["Title"] = "Criar contato";
+}
+
+<div class="col-md-6 mx-auto mt-5">
+    <div class="d-flex row mb-3 align-items-center">
+        <div class="col-5">
+            <a asp-action="Index" class="text-decoration-none">
+                <i class="bi bi-arrow-bar-left"></i>
+                voltar
+            </a>
+        </div>
+        <div class="col-7">
+            <h2>Deletar contato</h2>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 border rounded shadow mx-auto p-5">
+        <div class="card border-0">
+            <div class="card-body mb-3">
+                <p>Você tem certeza que deseja excluir este contato?</p>
+            </div>
+            <button asp-action="Excluir" type="submit" class="btn btn-primary">Excluir</button>
+        </div>
+    </div>
+</div>
