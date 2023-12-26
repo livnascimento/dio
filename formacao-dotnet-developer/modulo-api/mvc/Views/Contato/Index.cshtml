@@ -13,43 +13,51 @@
     </div>
 </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @if (Model != null)
-        {
-            @foreach (var contato in Model)
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(model => contato.Nome)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(model => contato.Telefone)
-                    </td>
-                    <td>
-                        <a asp-action="Editar" asp-route-id="@contato.Id" class="text-decoration-none"><i class="bi bi-pencil-square"></i></a>
-                    </td>
-                    <td>
-                        <a asp-action="Detalhar" asp-route-id="@contato.Id" class="text-decoration-none"><i class="bi bi-plus-circle-fill"></i></a>
-                    </td>
-                    <td>
-                        <a asp-action="Excluir" asp-route-id="@contato.Id" class="text-decoration-none">Excluir</a>
-                    </td>
-                </tr>
+                @foreach (var contato in Model)
+                {
+                    <tr class="align-middle">
+                        <td>
+                            @Html.DisplayFor(model => contato.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => contato.Telefone)
+                        </td>
+                        <td>
+                            <a asp-action="Detalhar" asp-route-id="@contato.Id" class="btn btn-success text-decoration-none">
+                                <i class="bi bi-info-circle"></i> &nbsp; Detalhar
+                            </a>
+                        </td>
+                        <td>
+                            <a asp-action="Editar" asp-route-id="@contato.Id" class="btn btn-primary text-decoration-none">
+                                <i class="bi bi-pencil-square"></i> &nbsp; Editar
+                            </a>
+                        </td>
+                        <td>
+                            <a asp-action="Excluir" asp-route-id="@contato.Id" class="btn btn-danger text-decoration-none">
+                                <i class="bi bi-trash"></i> &nbsp; Excluir
+                            </a>
+                        </td>
+                    </tr>
+                }
             }
-        }
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</div>
