@@ -1,4 +1,4 @@
-@model IEnumerable<mvc.Models.Contato>
+@model mvc.Models.Contato
 
 @{
     ViewData["Title"] = "Criar contato";
@@ -21,10 +21,39 @@
 <div class="row">
     <div class="col-md-6 border rounded shadow mx-auto p-5">
         <div class="card border-0">
-            <div class="card-body mb-3">
-                <p>Você tem certeza que deseja excluir este contato?</p>
+            <div class="card-body">
+                <div class="row">
+                    <dt class="col-sm-4">
+                        <dl>
+                            @Html.DisplayNameFor(x => x.Nome)
+                        </dl>
+                    </dt>
+                    <dt class="col-sm-6 fw-normal">
+                        <dl>
+                            @Html.DisplayFor(x => x.Nome)
+                        </dl>
+                    </dt>
+                </div>
+                <div class="row">
+                    <dt class="col-sm-4">
+                        <dl>
+                            @Html.DisplayNameFor(x => x.Telefone)
+                        </dl>
+                    </dt>
+                    <dt class="col-sm-6 fw-normal">
+                        <dl>
+                            @Html.DisplayFor(x => x.Telefone)
+                        </dl>
+                    </dt>
+                </div>
+                <section class="my-3">
+                    <p>Você tem certeza que deseja excluir este contato?</p>
+                    <p>Essa ação é irreversível.</p>
+                </section>
             </div>
-            <button asp-action="Excluir" type="submit" class="btn btn-primary">Excluir</button>
+            <form asp-action="Excluir">
+                <input value="Excluir" type="submit" class="btn btn-danger">
+            </form>
         </div>
     </div>
 </div>
